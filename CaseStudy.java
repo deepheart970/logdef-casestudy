@@ -1,21 +1,3 @@
-# Logdef Case-Study Çalışmam
-
-Bu çalışmada yaptığım kodlar CaseStudy.java dosyası içindedir
-
-## Nasıl çalıştırılır?
-- CaseStudy.java dosyası Java kurulu olan herhangi bir bilgisara indirilir
-- Dosyanın bulunduğu dizinde CMD veya Shell çalıştırılır.
-- "javac CaseStudy.java" komutu çalıştırılarak dosya compile edilir.
-- "java CaseStudy" komutu çalıştırılarak compile edilen dosya çalıştırılır.
-
-## Soru: 
-![CaseStudy-Resmi](assets/soru3.JPG)
-
-## Not:
- Soruda "migratoryBirds()" fonksiyonu ilk örnekte birdSpecies girilmeden çalıştırıldığı için kuş türünü otomatik olarak hesaplayan bir override fonksiyonu yazdım.
-
-## Çözüm:
-```java
 import java.util.Set;
 import java.util.HashSet;
 
@@ -77,5 +59,3 @@ public class CaseStudy {
         System.out.println(mostRepeatedBird);
     }
 }
-
-```
